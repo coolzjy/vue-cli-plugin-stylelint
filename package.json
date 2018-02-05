@@ -1,0 +1,28 @@
+{
+  "name": "vue-cli-plugin-stylelint",
+  "version": "0.0.1",
+  "description": "Stylelint plugin for vue-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolzjy/vue-cli-plugin-stylelint.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "plugin",
+    "stylelint"
+  ],
+  "author": "Zhang Visper <i@zjy.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coolzjy/vue-cli-plugin-stylelint/issues"
+  },
+  "homepage": "https://github.com/coolzjy/vue-cli-plugin-stylelint#readme",
+  "dependencies": {
+    "stylelint-webpack-plugin": "^0.10.1"
+  }
+}
