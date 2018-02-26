@@ -6,6 +6,6 @@ module.exports = {
         fileFilterRegex: [/\.vue$/]
       }
     ]
-  ],
-  extends: ['stylelint-config-standard']
+  ]<% if (config) { %>,
+  extends: ['<%- config %>']<% } %>
 }
