@@ -3,7 +3,7 @@ module.exports = api => {
     webpackConfig.plugin('stylelint')
       .use(require('stylelint-webpack-plugin'), [{
         context: 'src',
-        files: ['**/*.css', '**/*.vue']
+        files: ['**/*.css', '**/*.scss', '**/*.vue']
       }])
   })
 }
